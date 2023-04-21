@@ -205,3 +205,210 @@
     </div>
   </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="checkout.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+      rel="stylesheet"
+      <!--
+      boot
+      strap
+      links
+      --
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <div class="container">
+        <nav class="horizontal-navBar">
+          <div class="logo">
+            <a href="C:\test\meh\index.htm">
+              <img class="littlepaws" src="images/logo.png" alt="logo" />
+            </a>
+          </div>
+  
+          <ul>
+            <li><a href="index.html"> Home </a></li>
+            <li>
+              <a href="userRegistration.html"> User Registration</a>
+            </li>
+            <li><a href="logIn.html"> Login </a></li>
+            <li><a href="service.html"> Products </a></li>
+          </ul>
+        </nav>
+
+    <div class="container col-8 my-5 br-2 rounded">
+      <div class="row g-3">
+        <div class="col-4 order-md-last">
+          <h4 class="d-flex justify-content-between align-item-center">
+            <span class="text-muted">Your Cart</span>
+            <span class="badge bg-secondary rounded-pill">3</span>
+          </h4>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6>Performatin Ultra</h6>
+                <span class="text-muted">Rich grain filled dog food.</span>
+              </div>
+              <span class="text-muted">$ 60</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6>Purina Beggin Strips</h6>
+                <span class="text-muted">Bacon-flavored dog treats</span>
+              </div>
+              <span class="text-muted">$ 10</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6>Monkey Toy</h6>
+                <span class="text-muted">Dog toy that squeaks and allows dogs to pull on its arms</span>
+              </div>
+              <span class="text-muted"> $ 15</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6 class="text-success">Promo Code</h6>
+                <span class="text-muted">VIP15</span>
+              </div>
+              <span class="text-muted"> 14.25 </span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <div>
+                <h6>Total (USD $)</h6>
+              </div>
+              <span class="text-muted">79.85</span>
+            </li>
+          </ul>
+        </div>
+        <div class="col-8">
+          <h4>Billing Address</h4>
+          <form>
+            <div class="row">
+              <div class="col-6">
+                <label class="form-label" for="firstname">First Name</label>
+                <input type="text" id="firstname" class="form-control" />
+              </div>
+              <div class="col-6">
+                <label class="form-label" for="lastname">Last name</label>
+                <input type="text" id="lastname" class="form-control" />
+              </div>
+              <div class="col-12">
+                <label class="from-label" for="username">Username</label>
+                <div class="input-group">
+                  <span class="input-group-text">@</span>
+                  <input type="text" class="form-control" id="usrname" />
+                </div>
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="email"
+                  >Email
+                  <span class="text-muted"> (Optional)</span>
+                </label>
+                <input type="text" id="email" class="form-control" />
+              </div>
+              <div class="col-12">
+                <label class="form-label" for="address">Address </label>
+                <input type="text" id="address" class="form-control" />
+              </div>
+              <div class="col-5">
+                <label class="form-label" for="country">Country </label>
+                <select class="form-select" id="country">
+                  <option>Choose</option>
+                  <option>United States</option>
+                </select>
+              </div>
+              <div class="col-4">
+                <label class="form-label" for="state">State </label>
+                <select class="form-select" id="state">
+                  <option>Choose</option>
+                  <option>Florida</option>
+                  <option>New York</option>
+                  <option>Georgia</option>
+                  <option>California</option>
+                </select>
+              </div>
+              <div class="col-3">
+                <label class="form-label" for="zip">Zip </label>
+                <input type="text" id="zip" class="form-control" />
+              </div>
+            </div>
+            <hr />
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" />
+              <label class="form-check-label"
+                >Shipping address is the same as my billing address</label
+              >
+            </div>
+            <hr />
+            <h4>Payment</h4>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" />
+              <label class="form-check-label">Credit Card</label>
+            </div>
+            <div class="form-check">
+              <input type="radio" class="form-check-input" />
+              <label class="form-check-label">Debit Card</label>
+            </div>
+            <div class="row">
+              <div class="col-6">
+                <label class="form-label" for="cardname">Name on Card </label>
+                <input type="text" id="cardname" class="form-control" />
+                <small class="text-muted">Full name as displayed on card</small>
+              </div>
+              <div class="col-6">
+                <label class="form-label" for="creditcard"
+                  >Credit Card Number
+                </label>
+                <input type="text" id="creditcard" class="form-control" />
+              </div>
+              <div class="col-3">
+                <label class="form-label" for="expiration">Expiration </label>
+                <input type="text" id="expiration" class="form-control" />
+              </div>
+              <div class="col-3">
+                <label class="form-label" for="cvv">CVV </label>
+                <input type="text" id="cvv" class="form-control" />
+              </div>
+            </div>
+            <hr />
+            <button type="submit" class="btn btn-primary btn-block mb-4">
+              Continue To Checkout
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

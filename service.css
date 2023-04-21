@@ -40,7 +40,53 @@
 
 body{background-color: #eee
 }
+.flex-container-1{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: fit-content;
+}
 
+.flex-container-1 > div {
+    background-color: #f1f1f1;
+    width: 33.33%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.flex-container-2{
+    display: flex;
+    background-color: blue;
+    width: 100%;
+    height: fit-content;
+    margin-top: 35px;
+}
+
+.flex-container-2 > div {
+    background-color: #f1f1f1;
+    width: 33.33%;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.cart{
+    width: 300px;
+    background-color: rgb(54, 168, 250);
+    height: fit-content;
+    border-radius: 15px 15px 15px 15px;
+    margin: auto;
+    margin-top: 25px;
+    text-align: center;
+    padding: 55px;
+}
+
+body{background-color: #eee
+}
+
+.littlepaws{
+    width: 150px;
+    height: 100px;
+}
 .littlepaws{
     width: 150px;
     height: 100px;
