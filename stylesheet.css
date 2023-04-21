@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'merriweather', 'monserrat', 'sacramento';
+    box-sizing: border-box;
+}
+h1{
+    font-family: 'sacramento', cursive;
+}
+.container{
+    width: 1200px;
+    height: fit-content;
+    background-color: transparent;
+    margin: auto;
+}
+                                                                            /* Navigational Bar */
+.logo{
+    float: left;
+    
+}
+
+.horizontal-navBar{
+    width: 100%;
+    height: fit-content;
+    text-align: center;
+    background-color: pink;
+    font-size: 30px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 35px;
+}
+
+nav ul li a{
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    text-decoration: none;
+    border-radius: 10px 10px 0 10px;
+    background-color: blue;
+    color: white;
+}
+
+                                                                                /* home Body */
+.home-layout-container{
+    width: 100%;
+    height: 500px;
+    background-color: transparent;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    text-align: center;
+    line-height: 50px;
+}
+
+.home-layout-1{
+    width: 100%;
+    height: 200px;
+    background-color: transparent;
+ 
+}
+
+.home-layout-2{
+    width: 50%;
+    height: 300px;
+    background-color: pink;
+    float: left;
+    
+}
+
+.home-layout-3{
+    width: 50%;
+    height: 300px;
+    background-color: pink;
+    float: left;
+   
+}
+
+.home-layout-3 ul li{
+    list-style: inside;
+}
+
+.littlepaws{
+    width: 150px;
+    height: 100px;
+}
+
+.pets{
+    width: 350px;
+    height: 200px;
+
+}
+                                                                    /* Footer */
+footer {
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 3px;
+    background-color: pink;
+    color: white;
+    margin-top: 25px;
+}
+
+footer nav ul li{
+    float: left;
+    padding: 10px;
+    margin: 0;
+}
