@@ -12,7 +12,7 @@ I included images in the index and products pages. I have custom font added into
 
 Website Preview:
 
-Index: ![index page](C:\LearnToCode\capstone--littlepaws\images\index.png)
+Index: ![index page](capstone--littlepaws\images\index.png)
 Registration: <img src="images/registration.png" alt="registration page">
 Login: <img src="images/login.png" alt="login page">
 Products: <img src="images/products.png" alt="products page">
