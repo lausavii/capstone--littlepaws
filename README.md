@@ -1,4 +1,4 @@
-# capstone--sailorcosmoshq
+# capstone--littlepaws
 
 Finished product.
 
@@ -9,3 +9,11 @@ The registration page asks users for their full name, email address, and prompts
 Lastly, the checkout page is created with bootstrap. This displays a form which user provide their full name, mailing address, and payment details. There is also a sample table that shows three items from our products page to reflect something a customer would pay pay for.
 
 I included images in the index and products pages. I have custom font added into the website with a pink background to make it visually more appealing.
+
+Website Preview:
+
+Index: <img src="images/index.png" alt="index page">
+Registration: <img src="images/registration.png" alt="registration page">
+Login: <img src="images/login.png" alt="login page">
+Products: <img src="images/products.png" alt="products page">
+Checkout: <img src="images/checkout.png" alt="checkout page">
