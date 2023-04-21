@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="stylesheet.css" />
+    <link rel="stylesheet" href="userReg.css" />
+    <link rel="stylesheet" href="stylesheet.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -40,7 +42,7 @@
       crossorigin="anonymous"
     ></script>
 
-    <title>Little Paws Pet Shop</title>
+    <title>Registration</title>
   </head>
   <body>
     <div class="container">
@@ -54,45 +56,68 @@
         <ul>
           <li><a href="index.html"> Home </a></li>
           <li>
-            <a href="userRegistration.html"> User Registration</a>
+            <a href="userRegistration.html"> User Registration </a>
           </li>
-          <li><a href="logIn.html"> Login </a></li>
+          <li><a href="login.html"> Login </a></li>
           <li><a href="service.html"> Products </a></li>
         </ul>
       </nav>
 
-      <section class="home-layout-container">
-        <div class="home-layout-1">
-          <img class="pets" src="images/pets.jpg" alt="Stand Alone Image" />
-        </div>
+      <div class="form-container">
+        <h2>Become Part of the Little Paws Family!</h2>
 
-        <div class="home-layout-2">
-          <h1>We Speak Pet.</h1>
-          <p>
-            Little Paws is committed to making your furry friends feel special.
-            We offer a variety of products and services.
-          </p>
+        <hr />
 
-          <p>
-            We know they are more than just pets...they are part of your family.
-            Little Paws caters to both you and your pets needs.
-          </p>
-        </div>
+        <form>
+          <label for="fname"> Enter First Name</label>
+          <input
+            type="text"
+            id="fname"
+            name="fname"
+            placeholder="First name"
+            required
+          />
 
-        <div class="home-layout-3">
-          <h1>Pets We Serve:</h1>
-          <ul>
-            <li>Dogs</li>
-            <li>Cats</li>
-          </ul>
-        </div>
-      </section>
+          <label for="lname">Enter Last Name</label>
+          <input
+            type="text"
+            id="lname"
+            name="lname"
+            placeholder="Last name"
+            required
+          />
+
+          <label for="email">Enter Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Email"
+            required
+          />
+
+          <label for="email">Confirm Email Address</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="Confirm Email"
+            required
+          />
+
+          <textarea rows="4" cols="50" name="comment" form="usrform">
+ How did you hear about us? </textarea
+          >
+        </form>
+
+        <section class="side-buttons">
+          <input type="submit" value="Submit" class="button-decoration" />
+          <input type="reset" value="reset" class="button-decoration" />
+        </section>
+      </div>
 
       <footer>
-        <p>
-          For any inquiries or concerns, please reach out to me!<br />
-          <a href="#"">CONTACT ME</a>
-        </p>
+        <p>Created by: Laura Savinon<br /></p>
 
         <nav class="vertical-footer">
           <ul>
