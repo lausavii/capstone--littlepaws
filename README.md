@@ -14,7 +14,7 @@ I included images in the index and products pages. I have custom font added into
 
 Website Preview:
 Index: ![index page](images/index.png)
-Index: ![registration page](images/registration.png)
-Index: ![login page](images/login.png)
-Index: ![products page](images/products.png)
-Index: ![checkout page](images/checkout.png)
+Registration: ![registration page](images/registration.png)
+Login: ![login page](images/login.png)
+Products: ![products page](images/products.png)
+Checkout: ![checkout page](images/checkout.png)
