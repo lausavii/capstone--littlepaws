@@ -10,4 +10,4 @@ Lastly, the checkout page is created with bootstrap. This displays a form which 
 
 I included images in the index and products pages. I have custom font added into the website with a pink background to make it visually more appealing.
 
-**I had to manually uploaed files because when I committed the changes via VS Code, it was not reflecting the saves in GitHub. 
+**I had to manually upload files because when I committed the changes via VS Code, it was not reflecting the saves in GitHub. 
