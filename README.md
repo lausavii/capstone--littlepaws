@@ -10,10 +10,11 @@ Lastly, the checkout page is created with bootstrap. This displays a form which 
 
 I included images in the index and products pages. I have custom font added into the website with a pink background to make it visually more appealing.
 
-Website Preview:
+\*\*Previously uploaded file because Github was not reflecting commits via VS Code. UPDATE: I was finally able to link my VS code into Github.
 
-Index: ![index page](capstone--littlepaws\images\index.png)
-Registration: <img src="images/registration.png" alt="registration page">
-Login: <img src="images/login.png" alt="login page">
-Products: <img src="images/products.png" alt="products page">
-Checkout: <img src="images/checkout.png" alt="checkout page">
+Website Preview:
+Index: ![index page](images/index.png)
+Index: ![registration page](images/registration.png)
+Index: ![login page](images/login.png)
+Index: ![products page](images/products.png)
+Index: ![checkout page](images/checkout.png)
